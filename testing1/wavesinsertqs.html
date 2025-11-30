@@ -443,8 +443,8 @@ if (reversed == null) { reversed = false; }
 	this.frame_24 = function() {
 		this.stop();
 		this.finalscore.text = this.currents.text;
-		this.exit2.addEventListener("click", fl_MouseClickHandler_8.bind(this));
-		function fl_MouseClickHandler_8()
+		this.exit2.addEventListener("click", fl_MouseClickHandler_9.bind(this));
+		function fl_MouseClickHandler_9()
 		{
 			window.close();
 		}
@@ -539,7 +539,7 @@ if (reversed == null) { reversed = false; }
 	this.text_3.lineWidth = 25;
 	this.text_3.parent = this;
 	this.text_3.setTransform(329.8,245.7);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_3,p:{text:"A."}},{t:this.text_2},{t:this.text_1},{t:this.text}]}).to({state:[{t:this.text_3,p:{text:"a."}},{t:this.text_2},{t:this.text_1},{t:this.text}]},4).to({state:[{t:this.text_3,p:{text:"a."}},{t:this.text_2},{t:this.text_1},{t:this.text}]},5).to({state:[{t:this.text_3,p:{text:"a."}},{t:this.text_2},{t:this.text_1},{t:this.text}]},5).to({state:[{t:this.text_3,p:{text:"a."}},{t:this.text_2},{t:this.text_1},{t:this.text}]},5).to({state:[]},5).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]}).to({state:[{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]},4).to({state:[{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]},5).to({state:[{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]},5).to({state:[{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]},5).to({state:[]},5).wait(1));
 	// question
 	this.theq = new cjs.Text("1. Which is the largest zone of the ocean?", "25px 'Aalon'");
 	this.theq.name = "theq";
@@ -565,7 +565,7 @@ if (reversed == null) { reversed = false; }
 	this.exit2.name = "exit2";
 	this.exit2.setTransform(767,481.55);
 	new cjs.ButtonHelper(this.exit2, 0, 1, 2);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.exit}]}).to({state:[{t:this.instance_17},{t:this.instance_16}]},4).to({state:[{t:this.instance_17},{t:this.instance_18}]},5).to({state:[{t:this.instance_17},{t:this.instance_19}]},5).to({state:[{t:this.exit2}]},5).wait(6));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.exit}]}).to({state:[{t:this.instance_17},{t:this.instance_16}]},4).to({state:[{t:this.instance_17},{t:this.instance_18}]},5).to({state:[{t:this.instance_17},{t:this.instance_19}]},5).to({state:[{t:this.exit2}]},5).to({state:[{t:this.exit2}]},5).wait(1));
 	// nextbutton
 	this.nextbutton = new lib.nextbutton();
 	this.nextbutton.name = "nextbutton";
@@ -594,10 +594,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 0.00,
 	manifest: [
-		{src:"images/wavesinsertqs_atlas_1.png?1764468912934", id:"wavesinsertqs_atlas_1"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1764468912959", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1764468912959", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1764468912959", id:"an.Video"}
+		{src:"images/wavesinsertqs_atlas_1.png?1764469388409", id:"wavesinsertqs_atlas_1"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1764469388439", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1764469388439", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1764469388439", id:"an.Video"}
 	],
 	preloads: []
 };
